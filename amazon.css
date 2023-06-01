@@ -1,0 +1,357 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color:#0F1111;
+}
+.left-section{
+    width: 400px;
+    height: 50px;
+    display: flex;
+}
+.location{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.logo{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.middle-section{
+    flex: 1;
+   border: 1px solid;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.all{
+    width: 28px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+.all button{
+    height: 35px;
+    border: none;
+}
+.input{
+    height: 30px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
+.input::placeholder{
+    padding: 20px;
+    font-size: 14px;
+}
+.search{
+    width: 50px;
+    height: 30px
+    0px;
+    display: flex;
+    align-items: center;
+}
+.search button{
+    height: 35px;
+    background-color:orange;
+    color: white;
+    border: none;
+}
+.right-section{
+    width: 400px;
+    height: 50px;
+    display: flex;
+}
+.language{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.accounts-lists{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3px;
+    
+}
+.return-order{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.return p{
+    width: 50px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin: 0;
+    color: white;
+}
+.order{
+    width: 70px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 18px;
+    color: white;
+}
+.cart {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+.hello p{
+    width: 64px;
+    height: 14px;
+    margin: 0;
+    color: gray;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    }
+.address h2 {
+    width: 160px;
+    height: 20px;
+    font-size: 16px;
+    margin: 0;
+    color: white;
+    }
+    .address-location{
+    display: flex;
+    gap: 3px;
+    }
+    .differnt-language{
+    display: flex;
+    }
+    .flag{
+     color: white;
+     width: 25px;
+     height: 20px;
+     display: flex;
+     align-items: center;   
+    }
+    .country{
+     color: white;
+     width: 25px;
+     height: 20px;
+     display: flex;
+     align-items: center;
+        
+    }
+    .sign-in p{
+     width: 70px;
+     height: 15px;
+     display: flex;
+     align-items: center;
+     margin: 0;
+     font-size: 10px;
+     color: white;
+    }
+    .accounts h3{
+     width: 140px;
+     height: 20px;
+     display: flex;
+     align-items: center;
+     margin: 0;
+     font-size: 14px;
+     color: white;
+    }
+    .heading{
+        background-color: #343636;
+        height: 40px;
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+        list-style: none;
+        margin: 0;
+        padding: 10px;
+    }
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 13px;
+        padding: 10px;
+
+    }
+    nav ul li a:hover{
+        border: 2px solid white;
+        
+    }
+    .container{
+        background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img2020/img21/apparelGW/mayatf23/n2gl/socks_p12_3000._CB588532437_.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 590px;
+       
+       
+    }
+    .flex-container{
+        height: 1000px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 10px;
+    
+        
+    }
+    .box{
+        width:350px;
+        height: 450px;
+        background-color: white;
+    
+    
+    }
+    .prices h2{
+    
+        width:320px ;
+        height: 100px;
+        margin: 0;
+        font-size: 20px;
+        display: flex;
+        padding-left: 20px;
+        align-items: center;
+        
+     
+       
+    }
+    
+   
+    .images{
+        width:350px ;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+    }
+    .images-laptop{
+        width: 350px;
+        height: 340px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .earpods{
+        height: 280px;
+    }
+    
+    .shopnow-laptop{
+
+        width: 150px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .shoes{
+        width: 150px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pents{
+        width: 150px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .images-title{
+        width:350px ;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .shoe-rates p{
+        width: 150px;
+        height: 25px;
+        margin: 0;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        letter-spacing: 1px;
+        line-height: 15px;
+    }
+    .pent-rates p{
+        width: 150px;
+        height: 25px;
+        margin: 0;
+        font-size: 12px;
+        padding-left: 10px;
+        letter-spacing: 1px;
+        display: flex;
+        align-items: center;
+    }
+    .second-images{
+        width:350px ;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:7px ;
+    }
+    .second_images-title{
+        width:350px ;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    .shopnow{
+        width:350px ;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        padding-left: 15px;
+       
+    
+    }
+    .shop button{
+        width: 100px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        background: transparent;
+        border: none;
+        color: blue;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .shop button:hover{
+        color: rgb(96, 96, 154);
+    }
